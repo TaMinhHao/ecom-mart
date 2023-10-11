@@ -58,3 +58,51 @@
     margin-bottom: -1px;
     
 }
+
+#homePage{
+    width: 90%;
+    margin-left: 15%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#categories{
+    padding-top: 10px;
+}
+
+.quantity-field{
+    padding-top: 2px;
+    padding-bottom: 6px;
+    width: 100px;
+    border-radius: 5px;
+    
+}
+.checkoutcartimg{
+    height: 50px;
+    width: 50px;
+}
+
+.checkout-adding-cart{
+    max-height: 400px;
+    overflow: auto;
+}
+.btn-adding-cart{
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.btn-click:hover{
+    cursor: pointer;
+}
+.quantity-input{
+    width: 30%;
+    height: 35px;
+    border-radius: 5px;
+}
+.btn-add{
+    width: 70%;
+    height: 35px;
+    border-radius: 5px;
+    background-color: #fff;
+}

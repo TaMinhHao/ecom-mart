@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useNavigate } from 'react-router-dom';
+import { json, useNavigate } from 'react-router-dom';
 import './styles.css';
 
 const Login = ({ onLogin }) => {
@@ -19,11 +19,15 @@ const Login = ({ onLogin }) => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        const User  = {};
+        let User  = {};
         if (data) {User = data.find((User) => User.email === email); }
-        else {localStorage.setItem("userData")}
-
-        
+        else {localStorage.setItem("userData",JSON.stringify([{
+            name:'a',
+            email:'',
+            phoneNumber:'',
+            password:'',
+            avatar:''
+        }]))}
 
 
         if (!User) {
