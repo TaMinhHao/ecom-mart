@@ -1,0 +1,60 @@
+.previewImage {
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+    border: 2px solid gray;
+}
+
+.inputicon {
+   margin-right: 3px;
+   border: 1px solid black;
+   border-radius: 2px;
+   padding: 8px;
+}
+
+
+
+.inputfile {
+    display: none;
+    cursor: pointer;
+}
+
+.inputitem {
+    padding: 6px;
+    
+}
+.textfield{
+    width: 300px;
+    height: 40px;
+}
+
+.btnsubmit{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-left: 70px;
+    background-color: #fff;
+}
+
+.btnsubmit:hover{
+    background-color: black;
+    color: white;
+}
+
+.title{
+    margin-left: 110px;
+}
+.profile-img{
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    margin-top: 2px;
+    margin-right: 2px;
+}
+
+.profile-name{
+    text-align: center;
+    margin-bottom: -1px;
+    
+}
